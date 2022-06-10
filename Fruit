@@ -1,0 +1,16 @@
+def colour(fruit):
+    if fruit == 'red':
+        return 'Probably an apple'
+    elif fruit == 'yellow':
+        return 'Probably a pear'
+    else:
+        return 'Probably not an apple or a pear'
+
+Question = 'What is the colour of the fruit?'
+
+print(Question)
+result = input()
+
+The_Fruit_Colour = colour(result)
+
+print(The_Fruit_Colour)
