@@ -1,0 +1,6 @@
+Article_Text = "........." # <--insert article text here
+Reference_Words = ['recession', 'downturn', 'crash', 'collapse']
+if any(word in Article_Text for word in Reference_Words):
+        print('Reference found')
+else:
+        print('Reference not found')
